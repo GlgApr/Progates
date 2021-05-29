@@ -1,0 +1,115 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  padding-bottom:33px;
+  padding-top:33px;
+  padding-left:20px;
+  padding-right:20px;
+  float:left;
+}
+
+/* Write your code below */
+.header {
+ background-color: #26d0c9;
+ color: #fff;
+ height: 90px;
+}
+
+.header-logo {
+  float:left;
+  font-size: 36px;
+  color:#fff;
+  padding-left:40px;
+  padding-bottom:20px;
+  padding-top:20px;
+  padding-right:40px;
+}
+
+.main {
+  padding-top:100px;
+  padding-right:80px;
+  padding-left:80px;
+}
+
+.main h1 {
+  font-size:140px;
+}
+.main h2 {
+  font-size:60px;
+}
+
+span {
+  color:#ff4a4a;
+}
+.main-lessons {
+  padding-bottom:15px;
+  height:500px;
+}
+
+.main-lessons h3{
+  padding-top:100px;
+  padding-bottom:15px;
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  
+}
+
+.lessons-item {
+float:left; 
+padding-right:40px;
+}
+
+.lessons-item p{
+  padding-top:30px;
+  padding-bottom:100px;
+}
+.lessons-image {
+  padding-top:50px;
+  padding-bottom:30px;
+  float:left;
+  font-size:24px;
+}
+
+.contact-us h3{
+  padding-bottom:15px;
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+}
+
+.contact-form {
+  padding-top:20px;
+  padding-bottom:100px;
+ 
+}
+
+.contact-form input, textarea {
+  border:1px solid #dee7ec;
+  padding-top: 20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  width:400px;
+}
+
+.submit-form {
+  font-size:18px;
+  color:#889eab;
+  background-color:#dee7ec;
+  
+}
+
+.contact-form p {
+  padding-top:30px;
+  padding-bottom:10px;
+}
